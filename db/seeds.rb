@@ -6,16 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Movie.create(
-  {
-    name: 'Amarelinho', address: 'Gloria', category: 'italian'
-  }, {
-    name: 'Panka', address: 'Gloria', category: 'belgian'
-  }, {
-    name: 'Sushi Sushi', address: 'Copacabana', category: 'japanese'
-  }, {
-    name: 'Muay Thai', address: 'Laranjeiras', category: 'french'
-  }, {
-    name: 'Chinatown Noms', address: 'Chinatown', category: 'chinese'
-  }
-)
+Restaurant.create(name: 'Amarelinho', address: 'Gloria', category: 'italian')
+Restaurant.create(name: 'Panka', address: 'Gloria', category: 'belgian')
+Restaurant.create(name: 'Sushi Sushi', address: 'Copacabana', category: 'japanese')
+Restaurant.create(name: 'Muay Thai', address: 'Laranjeiras', category: 'french')
+Restaurant.create(name: 'Chinatown Noms', address: 'Chinatown', category: 'chinese')
